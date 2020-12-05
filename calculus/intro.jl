@@ -8,18 +8,18 @@ using InteractiveUtils
 using Plots
 
 # ╔═╡ bd4db078-30e5-11eb-0450-3d10f872d71f
-md"To look at Predator prey using differential equations click [here](/open?path=/julia/src/run/notebooks/calculus/Predator-prey.jl)."
+md"To look at Predator prey using differential equations click [here](/open?path=./calculus/Predator-prey.jl)."
 
 
 # ╔═╡ 436473f0-30e5-11eb-120e-972c91f4b13d
-md"To look at Predator prey using Modelling toolkit click  [here](/open?path=/julia/src/run/notebooks/calculus/modeling_predprey.jl)."
+md"To look at Predator prey using Modelling toolkit click  [here](/open?path=./calculus/modeling_predprey.jl)."
 
 
 # ╔═╡ 41f5e8b4-30e5-11eb-3152-43e8246d5cb2
 
 
 # ╔═╡ 7c2b257e-30ba-11eb-2f32-0dc9503d5762
-md"To look at Modelling toolkit click  [here](/open?path=/julia/src/run/notebooks/calculus/modeling_toolkit.jl)."
+md"To look at Modelling toolkit click  [here](/open?path=./calculus/modeling_toolkit.jl)."
 
 
 # ╔═╡ 26cbdbe6-3001-11eb-1302-5d0412fe34df
