@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.12.11
+# v0.12.16
 
 using Markdown
 using InteractiveUtils
@@ -19,13 +19,9 @@ md"Computer Science notebooks are [here](/open?path=./julia/intro.jl)"
 # ╔═╡ 8dfe479c-3004-11eb-3d02-3f83cb926b36
 md"Add a new notebook [here](/new)"
 
-# ╔═╡ 3e3458e0-31e5-11eb-1c5d-6bf93bc26648
-🍕 = 1
-
 # ╔═╡ Cell order:
-# ╠═078beb8e-3003-11eb-2024-832e809585c7
-# ╠═12f4af38-3003-11eb-192f-6f16e8048709
-# ╠═3c91c06a-3003-11eb-2eae-07b252c6c016
-# ╠═49a7f12a-3003-11eb-01c7-efc80a813ddb
-# ╠═8dfe479c-3004-11eb-3d02-3f83cb926b36
-# ╠═3e3458e0-31e5-11eb-1c5d-6bf93bc26648
+# ╟─078beb8e-3003-11eb-2024-832e809585c7
+# ╟─12f4af38-3003-11eb-192f-6f16e8048709
+# ╟─3c91c06a-3003-11eb-2eae-07b252c6c016
+# ╟─49a7f12a-3003-11eb-01c7-efc80a813ddb
+# ╟─8dfe479c-3004-11eb-3d02-3f83cb926b36
