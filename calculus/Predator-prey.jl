@@ -62,7 +62,7 @@ Enter a value for y
 $(@bind y Slider(0.00 : 0.1 : 10; default=1.0, show_value=true))"
 
 # ╔═╡ f6f9f872-30db-11eb-25d3-f18fdd57d80c
-u0 = [1.0;1.0]; tspan = (0.0,10.0)
+u0 = [x;y]; tspan = (0.0,10.0)
 
 # ╔═╡ 986c0e84-31bd-11eb-27af-d1702ee5442e
 prob = ODEProblem(f,u0,tspan,p);
