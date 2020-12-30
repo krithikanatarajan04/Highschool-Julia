@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.12.11
+# v0.12.16
 
 using Markdown
 using InteractiveUtils
@@ -54,7 +54,7 @@ md"**Temperature in Kelvin**: Whenever discussing the behavior of gas, it is ver
 md"""Move the slider to change the degrees in Celsius and to see how that affects the temperature in kelvin: """
 
 # ╔═╡ 9f4d4afa-23a4-11eb-082b-cf05aa408069
-(@bind C html"<input type=range>")
+ @bind C html"<input type=range>"
 
 # ╔═╡ a34f586e-23a4-11eb-3ac3-13713ac16268
 md"$C degrees Celsius equates to"
@@ -169,19 +169,16 @@ The Ideal Gas formula is
 $\ce{PV=nRT}$ , where P stands for pressure, V stands for volume, n stands for moles, and T stands for temperature. The R is a special value called the gas constant, which stays the same no matter the calculation. R = 0.0821. Understanding this, you can now solve for each individual variable. "
 
 
-# ╔═╡ f1d1c842-2475-11eb-2795-416cac022ba5
-
-
 # ╔═╡ Cell order:
 # ╟─e0937cd4-239d-11eb-141d-1be13a185dca
 # ╟─17827eb0-239f-11eb-3266-2d71e0aedd9c
 # ╟─e51f5ba4-239f-11eb-0d73-cbb2f0b727b7
 # ╟─07010ba2-23a0-11eb-2656-b12946848a01
 # ╟─3b34ea3a-23a1-11eb-31b5-3171d41bc984
-# ╟─1b88d926-23a3-11eb-0d2e-7f8a2fa4eb1b
-# ╟─9f4d4afa-23a4-11eb-082b-cf05aa408069
-# ╟─a34f586e-23a4-11eb-3ac3-13713ac16268
-# ╟─65a88f26-23a4-11eb-02af-8998dbbbcf7f
+# ╠═1b88d926-23a3-11eb-0d2e-7f8a2fa4eb1b
+# ╠═9f4d4afa-23a4-11eb-082b-cf05aa408069
+# ╠═a34f586e-23a4-11eb-3ac3-13713ac16268
+# ╠═65a88f26-23a4-11eb-02af-8998dbbbcf7f
 # ╟─c3f552c0-23a5-11eb-2174-33ebd9de1cff
 # ╟─cc464fea-23a5-11eb-3e9e-87f62b2a4faf
 # ╟─e450fb58-23a5-11eb-2caa-639830646520
@@ -191,7 +188,7 @@ $\ce{PV=nRT}$ , where P stands for pressure, V stands for volume, n stands for m
 # ╠═4a55c8d8-2476-11eb-07d3-9b01d5e70a1e
 # ╠═008ce65e-2490-11eb-3b8a-f91d3cb8e452
 # ╟─bc1d2f24-2476-11eb-0c81-17c4da48b190
-# ╟─68c8e54c-2490-11eb-3d2b-dd73b9af11cf
+# ╠═68c8e54c-2490-11eb-3d2b-dd73b9af11cf
 # ╟─be952f68-2476-11eb-049b-1beb8f592f70
 # ╟─bf35d8e4-2476-11eb-078b-3b6b1f5fa04e
 # ╟─e5a02fd2-2475-11eb-3f1e-152a7a3a43ce
@@ -214,4 +211,3 @@ $\ce{PV=nRT}$ , where P stands for pressure, V stands for volume, n stands for m
 # ╟─28b7c798-2f67-11eb-1ee7-ff083e19acaf
 # ╟─d3129b2a-2f67-11eb-15b7-c9bac218038c
 # ╟─f8bbb5ba-2f67-11eb-32ef-bbc3f87fa010
-# ╟─f1d1c842-2475-11eb-2795-416cac022ba5

@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.12.11
+# v0.12.16
 
 using Markdown
 using InteractiveUtils
@@ -117,7 +117,7 @@ Reactions occur because of collisions between the reactant molecules. The higher
 # ╟─d0a52bfc-2c52-11eb-00ec-47b43e12e665
 # ╟─0c62867e-2c55-11eb-2a2f-c996647bb09f
 # ╟─692cdf04-2cd6-11eb-13fa-e1085427e42b
-# ╠═9838cd52-2cd7-11eb-02dd-b7e58fa3f862
+# ╟─9838cd52-2cd7-11eb-02dd-b7e58fa3f862
 # ╟─41ebf896-2cd9-11eb-1e42-bd22b037039e
 # ╟─14491af0-2cdb-11eb-18cb-f5bd35fd313c
 # ╟─b3115e2e-2cdb-11eb-2945-4b5dd251bcde
@@ -131,9 +131,9 @@ Reactions occur because of collisions between the reactant molecules. The higher
 # ╟─fe046dd0-2cdc-11eb-3008-3fe467884c2a
 # ╟─69b1d6ee-2cdd-11eb-0ebc-d13320f0481a
 # ╟─87ea36e0-2cdd-11eb-38a8-01e198c24c56
-# ╠═b257660c-2cdd-11eb-11d1-0991ca781fe4
+# ╟─b257660c-2cdd-11eb-11d1-0991ca781fe4
 # ╟─cc6a1638-2cde-11eb-1295-370f172a8701
 # ╟─49484bce-2ce0-11eb-039f-25acf25943dd
-# ╠═dd94e912-2ce1-11eb-3dea-1d25b16610b0
-# ╠═129366fa-2ce9-11eb-1192-ab7880b5a12b
-# ╠═de6df402-2d0c-11eb-14d3-cdea73e7e4f0
+# ╟─dd94e912-2ce1-11eb-3dea-1d25b16610b0
+# ╟─129366fa-2ce9-11eb-1192-ab7880b5a12b
+# ╟─de6df402-2d0c-11eb-14d3-cdea73e7e4f0

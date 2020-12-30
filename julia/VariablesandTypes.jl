@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.12.11
+# v0.12.16
 
 using Markdown
 using InteractiveUtils
@@ -198,7 +198,7 @@ Pkg.add("PGFPlotsX")
 # ╠═7a44d362-31d3-11eb-2006-2f79e5383f95
 # ╟─84cf7bca-31d3-11eb-3594-a722da40b1bf
 # ╟─90c953fa-31c5-11eb-0916-b7b3828e12e1
-# ╟─98c12592-31c5-11eb-0be0-bdf59ba1274a
+# ╠═98c12592-31c5-11eb-0be0-bdf59ba1274a
 # ╟─9ff95ace-31e2-11eb-3e4a-d1fa507ff913
 # ╠═f76a077c-31e2-11eb-2bd0-399350c2e820
 # ╠═ff24c0a6-31e2-11eb-25e0-c5f530e27ed0
@@ -207,12 +207,12 @@ Pkg.add("PGFPlotsX")
 # ╠═dc16eef8-31e3-11eb-1eba-737e85238d07
 # ╠═e05ed4e4-31e3-11eb-1f62-d987a3d416fe
 # ╟─86cd5ffc-31c4-11eb-1394-c7ddfa5dc534
-# ╟─c9c55d7a-31d4-11eb-0a65-abd881438331
-# ╟─dce56652-31d4-11eb-365b-6100a847b13d
-# ╟─a7a054ca-31d4-11eb-317b-cf624d47791a
-# ╟─b4575984-31d4-11eb-0045-fb0824a08c20
-# ╟─9c4b53ae-31d4-11eb-052a-abd726285a2d
-# ╟─9fae0234-31d5-11eb-21ba-abf6e13932c1
-# ╟─a9737288-31d5-11eb-1ca8-596a083b9dbb
-# ╟─c510f6ae-31d4-11eb-1901-5563116763d3
-# ╟─a36c5818-31d4-11eb-0de0-35c9674d733f
+# ╠═c9c55d7a-31d4-11eb-0a65-abd881438331
+# ╠═dce56652-31d4-11eb-365b-6100a847b13d
+# ╠═a7a054ca-31d4-11eb-317b-cf624d47791a
+# ╠═b4575984-31d4-11eb-0045-fb0824a08c20
+# ╠═9c4b53ae-31d4-11eb-052a-abd726285a2d
+# ╠═9fae0234-31d5-11eb-21ba-abf6e13932c1
+# ╠═a9737288-31d5-11eb-1ca8-596a083b9dbb
+# ╠═c510f6ae-31d4-11eb-1901-5563116763d3
+# ╠═a36c5818-31d4-11eb-0de0-35c9674d733f
