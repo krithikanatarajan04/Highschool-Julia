@@ -9,7 +9,11 @@ BINDER link to [Lesson 2: Functions](https://mybinder.org/v2/gh/fonsp/pluto-on-b
 BINDER link to [Lesson 3: Data Structures](https://mybinder.org/v2/gh/fonsp/pluto-on-binder/master?urlpath=pluto/open?url=https://raw.githubusercontent.com/22natarajank/Highschool-Julia/main/julia/data_structures.jl)
 
 BINDER link to [Lesson 4: Control Flow](https://mybinder.org/v2/gh/fonsp/pluto-on-binder/master?urlpath=pluto/open?url=https://raw.githubusercontent.com/22natarajank/Highschool-Julia/main/julia/Control_flow.jl)
+
 BINDER link to [Lesson 5: BroadCasting](https://mybinder.org/v2/gh/fonsp/pluto-on-binder/master?urlpath=pluto/open?url=https://raw.githubusercontent.com/22natarajank/Highschool-Julia/main/julia/broadcasting.jl)
+
 BINDER link to [Lesson 6: Variable Scope](https://mybinder.org/v2/gh/fonsp/pluto-on-binder/master?urlpath=pluto/open?url=https://raw.githubusercontent.com/22natarajank/Highschool-Julia/main/julia/variable_scope.jl)
+
 BINDER link to [Lesson 7: Modules](https://mybinder.org/v2/gh/fonsp/pluto-on-binder/master?urlpath=pluto/open?url=https://raw.githubusercontent.com/22natarajank/Highschool-Julia/main/julia/modules.jl)
+
 BINDER link to [Lesson 8: Types](https://mybinder.org/v2/gh/fonsp/pluto-on-binder/master?urlpath=pluto/open?url=https://raw.githubusercontent.com/22natarajank/Highschool-Julia/main/julia/Types.jl)
