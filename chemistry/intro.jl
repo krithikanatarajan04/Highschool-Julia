@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.12.16
+# v0.12.20
 
 using Markdown
 using InteractiveUtils
@@ -13,6 +13,9 @@ md"A notebook on kinetics is [here](/open?path=./chemistry/kinetics.jl)"
 # ╔═╡ 016d1054-34d9-11eb-18a5-113cea681f28
 md"A notebook on equilibrium is [here](/open?path=./chemistry/Equilibrium.jl)"
 
+# ╔═╡ c73e418c-6f25-11eb-26d7-8972ef3a7920
+md"A notebook on Balancing Chemical Equations is [here](/open?path=./chemistry/chemEquations.jl)"
+
 # ╔═╡ c395c30a-2486-11eb-16ec-9968033a9d5a
 md"### Acknowledgements:
 
@@ -24,7 +27,8 @@ md"### Acknowledgements:
 "
 
 # ╔═╡ Cell order:
-# ╠═ffb77e5e-3003-11eb-336e-955303c13b26
-# ╠═4d847a06-3004-11eb-334a-dfdb8ee22cff
-# ╠═016d1054-34d9-11eb-18a5-113cea681f28
+# ╟─ffb77e5e-3003-11eb-336e-955303c13b26
+# ╟─4d847a06-3004-11eb-334a-dfdb8ee22cff
+# ╟─016d1054-34d9-11eb-18a5-113cea681f28
+# ╟─c73e418c-6f25-11eb-26d7-8972ef3a7920
 # ╟─c395c30a-2486-11eb-16ec-9968033a9d5a

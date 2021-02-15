@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.12.16
+# v0.12.20
 
 using Markdown
 using InteractiveUtils
@@ -115,7 +115,7 @@ Reactions occur because of collisions between the reactant molecules. The higher
 # ╔═╡ Cell order:
 # ╟─9871de0c-2c51-11eb-2a8a-ff4e63e93182
 # ╟─d0a52bfc-2c52-11eb-00ec-47b43e12e665
-# ╟─0c62867e-2c55-11eb-2a2f-c996647bb09f
+# ╠═0c62867e-2c55-11eb-2a2f-c996647bb09f
 # ╟─692cdf04-2cd6-11eb-13fa-e1085427e42b
 # ╟─9838cd52-2cd7-11eb-02dd-b7e58fa3f862
 # ╟─41ebf896-2cd9-11eb-1e42-bd22b037039e

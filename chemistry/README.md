@@ -7,3 +7,4 @@ A notebook on kinetics is [here](https://mybinder.org/v2/gh/fonsp/pluto-on-binde
 
 A notebook on equilibrium is [here](https://mybinder.org/v2/gh/fonsp/pluto-on-binder/master?urlpath=pluto/open?url=https://raw.githubusercontent.com/22natarajank/Highschool-Julia/main/chemistry/Equilibrium.jl)
 
+A notebook on Balancing equations is [here](https://mybinder.org/v2/gh/fonsp/pluto-on-binder/master?urlpath=pluto/open?url=https://raw.githubusercontent.com/22natarajank/Highschool-Julia/main/chemistry/chemEquations.jl)

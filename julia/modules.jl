@@ -8,11 +8,7 @@ using InteractiveUtils
 using Pkg
 
 # ╔═╡ b2bdd276-46c0-11eb-04ea-077ed82cf318
-using SpecialFunctions
-
-
-# ╔═╡ d6be33ca-46c0-11eb-3d75-7312125cded8
-using SpecialFunctions: gamma, sinint
+using SpecialFunctions;
 
 # ╔═╡ 98ad6aee-46c3-11eb-2659-1df8839b5675
 begin
@@ -47,17 +43,11 @@ Pkg.add("SpecialFunctions")
 # ╔═╡ aeff4b1c-46c0-11eb-2c22-dfafe3c2a2c9
 md"At line 1 we import the module called Pkg (with the using keyword) and at line 2 we call the add function which is defined inside it. add takes as its argument the name of the package which we want to install and it will download and build it for us. When it is done (it may take a few minutes) we are ready to use the functions available inside the package!"
 
-# ╔═╡ ba1df408-46c0-11eb-3db7-47c4e4e54059
-gamma(3)
-
 # ╔═╡ c15fe60c-46c0-11eb-25e3-3703cca3e55b
 sinint(5)
 
 # ╔═╡ c7e491aa-46c0-11eb-04e1-9d578a50a92e
 md"If we don’t want to import all of the functions available inside SpecialFunctions but only some of them, for example the gamma function and sinint, but not cosint, we can do it in the following way."
-
-# ╔═╡ 07fb1dae-46c1-11eb-2c8f-a1a393fa332c
-gamma(4)
 
 # ╔═╡ 0fadc6aa-46c1-11eb-35dd-153ff4ca0078
 cosint(5)
@@ -65,14 +55,14 @@ cosint(5)
 # ╔═╡ 17321bc4-46c1-11eb-0f87-c5e661fe114e
 md"Sometimes it is useful to call a function taking in consideration the package where it is defined. If a function is not exported by the module (more on export later) or if there are several modules which export a function with the same name and same argument signature, we can specify which module the function belongs to using the following syntax:"
 
-# ╔═╡ 221b0d82-46c1-11eb-2605-29fbe2572d2f
-function gamma2(x)
-    println("I am another 'gamma' function")
-    return x^2
-end
+# ╔═╡ ba1df408-46c0-11eb-3db7-47c4e4e54059
+gamma(3)
+
+# ╔═╡ 07fb1dae-46c1-11eb-2c8f-a1a393fa332c
+gamma(4)
 
 # ╔═╡ 5621266c-46c2-11eb-0b1e-b1a4906e36f6
-gamma2(3)
+gamma(3)
 
 # ╔═╡ 6df7227a-46c2-11eb-05a1-5dbaab866f31
 SpecialFunctions.gamma(3)
@@ -224,6 +214,18 @@ It is good practice to write the documentation with at least the function signat
 
 We have learned how to import an existing “official” module and how to write our own. We have learned how it is possible to split a piece of code between multiple files and how code reusability can be improved by module usage. Finally, we have learned how to write proper code documentation in order to make it easier to find out and remember what a function does."
 
+# ╔═╡ 221b0d82-46c1-11eb-2605-29fbe2572d2f
+begin
+	function gamma(x)
+		println("I am another 'gamma' function")
+		return x^2
+	end
+	gamma(3)
+end	
+
+# ╔═╡ d6be33ca-46c0-11eb-3d75-7312125cded8
+using SpecialFunctions: gamma, sinint
+
 # ╔═╡ 837a9644-485b-11eb-23af-c7439f1b6ac0
 begin
 	include("big-module.jl")
@@ -241,24 +243,24 @@ export func2big
 end #end of module
 
 # ╔═╡ Cell order:
-# ╠═426b72dc-46c0-11eb-08ea-490eb2b4e2a2
+# ╟─426b72dc-46c0-11eb-08ea-490eb2b4e2a2
 # ╠═7dbb1cfc-46c0-11eb-3cde-2dacfdb76910
 # ╠═84828a4a-46c0-11eb-23a6-3708b6c8629f
-# ╠═aeff4b1c-46c0-11eb-2c22-dfafe3c2a2c9
+# ╟─aeff4b1c-46c0-11eb-2c22-dfafe3c2a2c9
 # ╠═b2bdd276-46c0-11eb-04ea-077ed82cf318
 # ╠═ba1df408-46c0-11eb-3db7-47c4e4e54059
 # ╠═c15fe60c-46c0-11eb-25e3-3703cca3e55b
-# ╠═c7e491aa-46c0-11eb-04e1-9d578a50a92e
+# ╟─c7e491aa-46c0-11eb-04e1-9d578a50a92e
 # ╠═d6be33ca-46c0-11eb-3d75-7312125cded8
 # ╠═07fb1dae-46c1-11eb-2c8f-a1a393fa332c
 # ╠═0fadc6aa-46c1-11eb-35dd-153ff4ca0078
-# ╠═17321bc4-46c1-11eb-0f87-c5e661fe114e
+# ╟─17321bc4-46c1-11eb-0f87-c5e661fe114e
 # ╠═221b0d82-46c1-11eb-2605-29fbe2572d2f
 # ╠═5621266c-46c2-11eb-0b1e-b1a4906e36f6
 # ╠═6df7227a-46c2-11eb-05a1-5dbaab866f31
-# ╠═82434edc-46c2-11eb-3bf0-d56282316427
+# ╟─82434edc-46c2-11eb-3bf0-d56282316427
 # ╠═a38c3be4-46c2-11eb-2555-8b66580eb7fc
-# ╠═a8458c44-46c2-11eb-02be-bd3aeb05d50a
+# ╟─a8458c44-46c2-11eb-02be-bd3aeb05d50a
 # ╠═98ad6aee-46c3-11eb-2659-1df8839b5675
 # ╠═d77a0ed8-485a-11eb-0dac-3ff8dee5168a
 # ╠═fa5636fc-485a-11eb-2f34-75e68933eb82

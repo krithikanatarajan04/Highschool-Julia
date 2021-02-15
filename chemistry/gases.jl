@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.12.16
+# v0.12.20
 
 using Markdown
 using InteractiveUtils
@@ -188,7 +188,7 @@ $\ce{PV=nRT}$ , where P stands for pressure, V stands for volume, n stands for m
 # ╠═4a55c8d8-2476-11eb-07d3-9b01d5e70a1e
 # ╠═008ce65e-2490-11eb-3b8a-f91d3cb8e452
 # ╟─bc1d2f24-2476-11eb-0c81-17c4da48b190
-# ╠═68c8e54c-2490-11eb-3d2b-dd73b9af11cf
+# ╟─68c8e54c-2490-11eb-3d2b-dd73b9af11cf
 # ╟─be952f68-2476-11eb-049b-1beb8f592f70
 # ╟─bf35d8e4-2476-11eb-078b-3b6b1f5fa04e
 # ╟─e5a02fd2-2475-11eb-3f1e-152a7a3a43ce
