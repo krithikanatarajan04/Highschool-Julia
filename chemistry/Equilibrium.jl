@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.12.16
+# v0.12.20
 
 using Markdown
 using InteractiveUtils
@@ -136,5 +136,5 @@ where P(C) is the partial pressure of the product C.
 # ╠═63b3e4ee-4952-11eb-0b2d-f553af6b4796
 # ╠═f619dfb6-495a-11eb-0ed4-4787776ac119
 # ╠═685e0c60-495d-11eb-1693-09a483597219
-# ╟─956a3240-34d5-11eb-18cb-f54bbc5e0452
+# ╠═956a3240-34d5-11eb-18cb-f54bbc5e0452
 # ╠═c23eb6a6-494d-11eb-1352-a5dce0aa5489
